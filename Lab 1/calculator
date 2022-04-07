@@ -1,0 +1,39 @@
+class calculator:
+    def add(self):
+        print('Enter two numbers')
+        x=int(input('enter 1st number'))
+        y=int(input('enter 2nd number'))
+        z=x+y
+        print(str(z))
+    def sub(self):
+        print('Enter two numbers')
+        x=int(input('enter 1st number'))
+        y=int(input('enter 2nd number'))
+        z=x-y
+        print(str(z))
+    def mul(self):
+        print('Enter two numbers')
+        x=int(input('enter 1st number'))
+        y=int(input('enter 2nd number'))
+        z=x*y
+        print(str(z))
+    def div(self):
+        print('Enter two numbers')
+        x=int(input('enter 1st number'))
+        y=int(input('enter 2nd number'))
+        z=x//y
+        print(str(z))
+    def operator(self):
+        print('Enter your choice: 1, 2 or 3')
+        c=int(input())
+        if c==1:
+            self.add()
+        elif c==2:
+            self.sub()
+        elif c==4:
+            self.div()
+        else:
+            self.mul()
+        
+cal=calculator()
+cal.operator()
