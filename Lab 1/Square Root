@@ -1,0 +1,9 @@
+def squareroot():
+    x=int(input('Enter a Numnber'))
+    y=m.sqrt(x)
+    print(str(y))
+    
+squareroot()
+
+Enter a Numnber5
+2.23606797749979
